@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+console.log("testing")
 const noteSchema = new mongoose.Schema({
   content: {
     type: String,
